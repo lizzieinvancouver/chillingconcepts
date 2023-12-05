@@ -4,6 +4,7 @@
 \usepackage{graphicx}
 \usepackage{natbib}
 \usepackage{amsmath}
+\usepackage{gensymb}
 
 \def\labelitemi{--}
 \parindent=0pt
@@ -12,15 +13,117 @@
 \bibliographystyle{/Users/Lizzie/Documents/EndnoteRelated/Bibtex/styles/besjournals}
 \renewcommand{\refname}{\CHead{}}
 
+\title{Chilling paper(s) notes}
+\author{Lizzie, Fredi, Jonathan Auerbach on some}
+\date{\today}
+\maketitle
+\tableofcontents
+
+\section{Meeting notes}
+\subsection{4 December 2023: We meet again on this!}
+
+In the morning we had a big conversation about what is the model for leafout, especially for `chilling.'  Questions we ended up with:
+
+\begin{enumerate}
+\item Dormancy depth as measured by forcing units needed (days at 20\degree C in Fredi's 2021 paper for example) -- is that an okay response variable or do we not understand forcing enough and days should be the response? If so, how do we model it altogether?
+\item Should we model \% or days or \% over days?
+\item Also, exciting short conversation on bet-hedging and leafout!
+\begin{enumerate}
+\item Should we model buds as cohorts and include variability as an expected response? ({\bf Bet-hedging and buds})
+\item In Fredi's experiment, some species never burst much about 50-60\% ... 
+\item If bet-hedging is happening but we assume \% budburst is related to dormancy depth, we may confuse the two completely. 
+\end{enumerate}
+\end{enumerate}
+
+Then we chatted with Jonathan Auerbach -- notes mainly in my green/gray notebook but a few here:
+
+\begin{enumerate}
+\item How to model experiments and observations together (Lizzie's eternal dream)
+\item Renewal theory is basically the bucket model
+\item What could we hope to do?
+\begin{enumerate}
+\item Figure out what our current experiments DO show. For example, can we show that chilling affects forcing? (Can we show it's not just time, but that temperature matters?)
+\item What can we say about chilling and forcing with current data? Given this is probably not much given identifiability issues ...
+\item What assumptions can we make that would allow us to say more? 
+\item What are the critical experiments that would test assumptions or really advance things
+\end{enumerate}
+\end{enumerate}
+
+In the afternoon we brainstormed: {\bf Points to cover in paper and/or /disturbing problems/issues:}
+
+\begin{enumerate}
+\item Is the model two-stage or parallel (or both, but depends on species ID)?
+\item We cannot (and do not) fit the experimental and observational data together.
+\item Models are basically made-up based on old studies ...
+\item Where does evidence/theory come from for current models of chilling?
+\item Models are non-identifiable
+\item Hardiness vs. dormancy
+\item Temperature fluctuations
+\item Influence of time without any other effects
+\item Photoperiod -- during `chilling' and during `forcing'
+\item List out big things that matter and maybe smaller things that matter
+\item Transition time from endo to ecodormancy -- is it instantaneous or gradual? What do we know from callose?
+\item What is the callose model? What temperatures is it degraded at? When is it built? What exactly is it blocking between cells (hormone etc.)? -- How does it compare to the two-stage and parallel model?
+\item Hormones and dormancy?
+\item Molecular evidence etc.
+\item Corollaries with seeds
+\item Dormancy depth (forcing needed after putting in warm temperatures) since budset through to next budburst
+\item GDD model is based on development -- but do we know if this is correct? It may be more like a timer that also runs (differently for each species). What is structural growth? Maybe none of it? GDD is from crops and is mainly structural growth, even though we don't think structural growth is happening during budburst? 
+\item Basically, what's chilling? And what's forcing? 
+\item What we don't know with chilling
+\begin{enumerate}
+\item What temperatures accumulate chill? Can it be really low? Can it be really high? What do freezing temperatures interrupting this do?
+\item Can accumulated chill be negated?
+\item Is it just time?
+\item Just to confirm: Chilling happens below 10 C only/mostly?
+\end{enumerate}
+\item Relevance of chilling in subtropical trees. 
+\end{enumerate}
+
+
+We need to. ...	
+\begin{enumerate}
+\item Understand the progression of the major old literatures that lead to the Utah model and the other model (Fishman? This is precursor to dynamic chill?). 
+\item Confirm how these models were extrapolated to forest trees (or at least compare them to the current forest tree models) -- we could just ask Isabelle about this and check Harrington papers and Murray et al. 1989
+\item {\bf Remember} to Never re-read chill models, just read old notes I have
+\item Divide up lit review tasks ...
+\begin{enumerate}
+\item Fredi does all OSPREE papers with negative chill or freeze... (Lizzie sends them to him, see getchill.R)
+\item Somebody does dormancy induction OSPREE papers
+\item Lizzie does the old modeling papers
+\end{enumerate}
+\end{enumerate}
+
+Tomorrow!
+\begin{enumerate}
+\item Arrive having read Isabelle's 2016 paper
+\item Make a broad outline ... some points already
+\begin{enumerate}
+\item Callose model vs. the current models (Lizzie has old notes, see notes within \verb|chillingrefs_holidayedition.pdf|
+\item What determines dormancy release?
+\begin{enumerate}
+\item Time alone
+\item Time at different temperatures: $<0$, 0-10, $>10$ ... 
+\item What do high temperatures do to `chilling'
+\end{enumerate}
+\item  \% versus time to BB: what tells us what? 
+\item What are feasible models?
+\begin{enumerate}
+\item What would be the best model?
+\item What do what know about what plants can measure?
+\end{enumerate}
+\end{enumerate}
+\item Officially divide up tasks and decide when feasible/best to do them
+\item If time allows, work on callose model/papers
+\end{enumerate}
 
 % Kovaleski paper:
 % https://www.biorxiv.org/content/10.1101/2022.09.15.508138v1.full
-{\bf Thinking ahead on 3 December 2023 before meeting tomorrow}\\
+\subsection{Thinking ahead on 3 December 2023 before meeting tomorrow}
 
-I think a good lit review could be in order for this paper ... but we'd need to think hard about how to do it. We'd likely want to include endo and ecodormancy (how well they measured it and included it ...).\\
+I think a good lit review could be in order for this paper ... but we'd need to think hard about how to do it. We'd likely want to include endo and ecodormancy (how well they measured it and included it ...). Then I just worked up  \verb|chillingrefs_holidayedition.pdf|
 
-
-Notes from very brief chat with F. Baumgarten on 1 November 2022 about writing a concept paper on chilling ....\\
+\subsection{Notes from very brief chat with F. Baumgarten on 1 November 2022 about writing a concept paper on chilling}
 
 {\bf Next steps:}
 \begin{enumerate}
