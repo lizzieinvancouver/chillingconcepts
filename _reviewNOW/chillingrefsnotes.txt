@@ -1,0 +1,47 @@
+Started 20 January 2025
+
+On 20 Jan 2025, I went through every folder in _ReviewNow and printed out bits of articles I thought I should read (or a few full articles). So next, I should (in either order:
+(*) Take quick notes on the non-printed out articles 
+(*) Read and take notes on the articles I printed out. 
+
+<><><><><><><><>
+Working through Cited in Chuine 2016 folder
+<><><><><><><><>
+
+** Atkinson et al. 2013 **
+
+PRINTED out to read
+
+** Legave 1982 ** 
+
+<> Not a super useful study for me for now. <>
+- Weighs peach buds (Tabuenca method they call it) looking for chill and heat units. Seem to use a Q10 equation for this and just compared different Q10 values and looked for goodness of fit. 
+
+"Then we may think that the bad precision of optimum quantity determination from a choice of about 95 "chill actions" (table 2) can be explained owing to the fact that the heat requirements are partly satisfied before the complete satisfaction of chilling requirements as B r o w n (1960) showed. Consequently we must think that the mean quantity of "heat actions" associated to the optimum quantity is a valuation both of the heat requirements and of a part of chilling requirements."
+
+I think this is just cited in Chuine et al. 2016 for showing how to do this in apricot. 
+
+** Hauagge_&_Crimmins_2000 **
+
+Good overview of different CU needed for some crops. Excellent citation to say it can vary a lot across species, cultivars etc.
+
+I did not read closely. 
+
+** Jones et al. 2013 **
+
+This paper is in OSPREE.
+They try a gazillion experiments on Ribes then look for what fits best statistically, though they say: 
+
+"Existing models for chill accumulation have largely been derived from statistical correlation; here we report the derivation of improved models for blackcurrant using controlled environment treatments."
+
+But if you read the rest of the abstract I think it just gets too complex, no clear model emerges from the experiments alone... 
+
+"The impact of different combinations of temper- ature and chilling periods were described in terms of their overall ‘Effectiveness’ (E). Clear genotypic differences were found, with excessive chilling often inhibiting bud break. There was a significant interaction between observed chilling response and the period of low temperature exposure. A number of chilling models to explain observed interactions between chilling temperature and time of exposure on bud break were compared; the most effective involved an optimal response to increasing chill accumulation."
+
+Chuine et al. 2016 cites this paper (a lot) including: 
+
+"However, none of them were able to evaluate the efficiency of the models to predict accu- rately endodormancy break dates using observed endodormancy break dates so far (Jones et al., 2013)."
+
+Good stuff in this paper though, so will print out intro ....
+
+"Evidence on the chilling requirement of different fruit spe- cies or cultivars can be obtained either through statistical analysis of correlations between flowering behaviour and sea- sonal temperatures in the field, or by using controlled envi- ronment studies involving exposure of plants or cuttings to controlled temperatures and using the resulting data to derive a chill model. Unfortunately, it has been shown that field data simply do not contain sufficient information for param- eterisation of the different processes involved in the necessary ecophysiological models (e.g. Hunter & Lechowicz 1992; Ha ̈nninen et al. 2007), therefore the present study emphasises the experimental approach."
