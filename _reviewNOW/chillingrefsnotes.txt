@@ -1,11 +1,44 @@
 Started 20 January 2025
 
-On 20 Jan 2025, I went through every folder in _ReviewNow and printed out bits of articles I thought I should read (or a few full articles). So next, I should (in either order:
+On 20 Jan 2025, I went through every folder in _ReviewNow and printed out bits of articles I thought I should read (or a few full articles). So next, I should (in either order):
 (*) Take quick notes on the non-printed out articles 
-(*) Read and take notes on the articles I printed out. 
+(*) Read and take notes on the articles I printed out. * see START HERE below ...
+
+*!* Point to make in our paper?
 
 <><><><><><><><>
-Working through Cited in Chuine 2016 folder
+<> Back at it (Feb 2025) 
+<><><><><><><><>
+
+Starting on 24Dec2024 folder:
+
+** Basler 2016 **
+Evaluating phenological models for the prediction of leaf-out dates in six temperate tree species across central Europe
+
+- This seems a very useful paper for us!
+- Evaluates 35 or 37 (discussion vs. Fig caption #s) different process models for 6 tree species and finds they converge on prediction error 
+- Also shows bias variance trade-off ("The transfer of site-specific parameters to other sites was associated with an almost doubling of the average prediction error, independent of distance and climatic similarity between the calibration and validation sites.")
+- Very handy article about issues with these models
+- Suggests simple models perform as well as more complex models
+- Shows overfitting in some models. 
+- Intro has review of models (from European tree perspective)
+- Cites Migliavacca et al., 2012, which probably has some good stuff on land models and phenology
+- Cites Battey, N.H., 2000. Aspects of seasonality. J. Exp. Bot. 51 (352), 1769–1780. For "the actual chilling requirements and effective ranges of chilling temperatures are yet scarcely known for forest tree species" (I downloaded this article into articles/ but am not sure it's worth reading ... it goes back to Bede! And is long, seems a mix of science and social sincere. ... but I also printed it, seems good article to say "what is known about it is conditioned by what particular scientists have said about it" though, umm, isn't that true of everything?)
+- Photoperiod section! "Models that included photoperiod during the ecodormancy release phase were generally among the models with the best performance in all 6 species." I wonder what those models were ... could ask Victor to check. 
+- Cites me for something I never want to be cited for! Saying you can't combine experiments and observations ... but also I guess this Basler paper is a good citation for belief that experiments and observations cannot be fit together. 
+- Also, "Hänninen’s (1995) conclusions, based on a comparison of leaf
+unfolding dates in field and in warming experiments, that to predict
+phenology in a future climate, the use of complementary data from
+experiments should be considered to increase data coverage for the
+calibration of the model parameters."
+- Actually the whole discussion section 4.1.5 is an example of why this guy should learn hierarchical models! *!* Point to make in our paper?
+
+
+* see START HERE below ...
+READ: Campbell_&_Sugano_1979_COPY or read the paper stuff.
+
+<><><><><><><><>
+Working through Cited in Chuine 2016 folder (Jan 2025)
 <><><><><><><><>
 
 ** Atkinson et al. 2013 **

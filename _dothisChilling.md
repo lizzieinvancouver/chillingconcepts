@@ -12,7 +12,7 @@ Started 4 January 2025
 ### Papers to look at...
 In November-December 2024, I wrote the first draft of a new paper building off my long-term thoughts on this, meetings with Auerbach and Justin's work on the molecular lit. I pulled a bunch of papers to check:
 
-* As of 20 Jan 2025, look for my notes in reviewNOW/chillingrefsnotes
+* As of 20 Jan 2025, look for my notes in reviewNOW/chillingrefsnotes (YES! Look there says Lizzie of 25 Feb 2025)
 1. Review Hanninen folder (briefly)
 2. Check 24Dec2024 folder, which I think may especially help with some refs (issue 9)
 3. Check the other files in reviewNow folder (that I have on my computer) -- some notes, and two folders for specific citations
