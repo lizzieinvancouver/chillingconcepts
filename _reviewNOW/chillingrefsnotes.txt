@@ -6,11 +6,91 @@ On 20 Jan 2025, I went through every folder in _ReviewNow and printed out bits o
 
 *!* Point to make in our paper?
 
+To do:
+- Could ask Justin to read Atkinson et al. 2013 and Considine_&_Considine_2016 or skip
+- Ask for Victor's help in thinking about Kovaleski and North_etal_2022 (same thing)?
+
 <><><><><><><><>
-<> Back at it (Feb 2025) 
+<> Back at it (Feb-March 2025) 
 <><><><><><><><>
 
-Starting on 24Dec2024 folder:
+
+<><><>
+Printed papers:
+
+** Jones et al. 2013 **
+
+Read intro 2 March 2025:
+- Ribes paper focused on a ton of experiments to find a better model (they seem to be looking down on statistical fits, but then just do a ton of statistical fits to their experimental data, so go figure)
+- Good citation for people saying experiments are better (but then not clearly getting much out of them)
+- Good citation for classic idea of chilling (near freezing temps that release endodormancy) citing Lang 1987 and Howe et al. 1999
+- Says UK is having trouble with warming and crops, and has citations
+- Cites Sunley et al. 2006 and Solomon et al. 2007 for warming and crops stuff
+
+** Atkinson et al. 2013 **
+
+Tried to read paper 2 March 2025, but gave up at section 3 as I was so bored:
+- Review of crops being limited by chilling with warming
+- SO incredibly boring. 
+- Just a review of the literature on crops with some extensions into other systems (though I did not get there) and seems to have no novel info. 
+- Only novel bit is lots of old citations from California etc. where chilling was not met
+- Suspect there are are other bits like this: 
+"There is also evidence from Ribes rubrum that a proportion of the total number of floral initials abscised during dormancy was not linked to winter temperatures, but branch orientation (Palonen and Voipio, 1994)." 
+... if I could keep reading but I physically cannot. 
+
+** Malmquist et al. 2017 **
+
+Read intro 2 March 2025:
+- This is a paper testing for which Doug Fir provenances they should grow in 'Nordic conditions'
+- Has a good review of Doug for research in intro. 
+- Good for FINDING citations saying interior populations need less chilling and they seem to find that too -- interior ones budburst sooner
+
+
+** Fernandez et al. 2020 **
+
+Read intro 2 March 2025:
+- Luedeling paper finding his method is best (of course) though Positive Utah seems equally good
+- Lots of him saying his method is more physiologically realistic. (Handy review of it here: https://ccag-eh.ucanr.edu/Chill_Portions_and_the_Dynamic_Model/) 
+- Though I highlighted some bits that really sound like mathematical interaction model informing the biology  *!* 
+- I started wondering if the problem of these chill models has corollary with SDMs -- based on current data, so always a bit pessimistic  *!* 
+- Nice review in intro of lots of chill models 
+- Lots of citations that the models do not transfer (bias variance issue, again)
+
+
+** Considine_&_Considine_2016 **
+
+Read through pg 3192 2 March 2025 and skimmed PDF in a semi-random way. 
+- This article really seemed more useless than I expected. 
+- Maybe good for linking dormancy in seeds and trees as cites Lang and Baskin?
+- I think there is some good stuff in here (see photoperiod stuff that I highlighted) but it is very boring. 
+- Good for definition dormancy, quiescence, competence 
+
+
+** Lundell_etal_2019 ** 
+
+Read intro 2 March 2025:
+- Says a ton of times in intro that markers are not yet available so we must do hypo-deductive
+- Goes back to Vegis (1964) and dormant seeds to propose ANOTHER models (see Fig 1) 
+- We should probably cite and include this model *!* 
+
+
+** North_etal_2022 **
+
+Read intro 2 March 2025:
+- Uses Kovaleski model to say their description should inform dormancy transitions
+- Do a great job of saying dormancy is not well observed and semi-made up; see highlighting ("they rely on arbitrary assumptions to delineate the dormancy stage")
+- "Most importantly, deacclimation potential quantifies
+a physiological bud phenotype that precedes externally visible bud
+growth, the necessary observation in bud forcing assays. In addition,
+deacclimation potential characterizes a chill range where physiological
+bud responses continuously increase until they reach their maximum
+potential. This provides an opportunity to identify the most effective
+temperatures contributing to the dormancy transition, thereby improv-
+ing chill models."
+- Need to figure this out ... maybe Victor could for the paper (do this and Kovaleski paper) 
+
+<><><>
+Starting on 24Dec2024 folder (be sure to skip articles above, which I had printed out):
 
 ** Basler 2016 **
 Evaluating phenological models for the prediction of leaf-out dates in six temperate tree species across central Europe
