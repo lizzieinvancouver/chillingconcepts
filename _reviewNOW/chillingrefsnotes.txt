@@ -114,8 +114,43 @@ calibration of the model parameters."
 - Actually the whole discussion section 4.1.5 is an example of why this guy should learn hierarchical models! *!* Point to make in our paper?
 
 
+** Campbell_&_Sugano_1979_COPY **
+
+- Studied 23 populations of Doug fir in 12 growth chamber combos!
+- Nice citation for the idea that these reaction norms should vary with populations (climate) which seems to have been semi-dropped
+- Q_10 model
+- Start of discussion: all populations had similar reactions to chilling and forcing temp, so an average makes sense
+- Distance to coast matters
+
+** Chouard 1960 **
+
+- Long paper on vernalization vs. dormancy that I did not read fully
+- Goes through lots of evidence across species
+- Says breaking dormancy is not the same as vernalization; you can break dormancy without achieving vernalization (gives a seed example!)
+- Vernalization is not the same as internode elongation
+
+
+** Kaduk_&_Los_2007 **
+
+- Pretty sure I pulled this paper as an example of what you should not do ... *!*
+- Estimate chilling ('at the biome') level using green-up dates and crazy model fits. 
+- Discussion says they found no local adaptation (whoa, cites Chuine and Kramer as finding the same)
+- Good example of why we need machine learning, I mean if all you care about is prediction like here, then just do ML
+
+
+** Wang_etal_2022 **
+
+- "Here, we aimed to answer whether chilling and forcing proceed in parallel or sequentially to regulate spring phenology in temperate trees."
+- With long-term observational data -- oh boy!
+- "we analysed the rolling partial corre- lations between leaf unfolding dates and chilling and forcing in winter and spring using a weekly smoothing window"
+- "Combining statistical with process-based approaches, we demonstrated that chilling and forcing accumulate and act in parallel to regulate spring leaf unfolding in temperate trees."
+- Ask Victor to explain how this is non-identified? And/or make sure his example addresses this sort of paper?
+
+
+
 * see START HERE below ...
-READ: Campbell_&_Sugano_1979_COPY or read the paper stuff.
+Review my notes on Chuine citedChuine2016 (below)
+READ: citedinZhao_etal_2020_acutetemperatures
 
 <><><><><><><><>
 Working through Cited in Chuine 2016 folder (Jan 2025)
