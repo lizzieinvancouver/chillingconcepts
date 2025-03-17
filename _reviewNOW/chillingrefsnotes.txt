@@ -104,7 +104,7 @@ Evaluating phenological models for the prediction of leaf-out dates in six tempe
 - Intro has review of models (from European tree perspective)
 - Cites Migliavacca et al., 2012, which probably has some good stuff on land models and phenology
 - Cites Battey, N.H., 2000. Aspects of seasonality. J. Exp. Bot. 51 (352), 1769–1780. For "the actual chilling requirements and effective ranges of chilling temperatures are yet scarcely known for forest tree species" (I downloaded this article into articles/ but am not sure it's worth reading ... it goes back to Bede! And is long, seems a mix of science and social sincere. ... but I also printed it, seems good article to say "what is known about it is conditioned by what particular scientists have said about it" though, umm, isn't that true of everything?)
-- Photoperiod section! "Models that included photoperiod during the ecodormancy release phase were generally among the models with the best performance in all 6 species." I wonder what those models were ... could ask Victor to check. 
+- Photoperiod section! "Models that included photoperiod during the ecodormancy release phase were generally among the models with the best performance in all 6 species." I wonder what those models were ... could ask Victor to check.
 - Cites me for something I never want to be cited for! Saying you can't combine experiments and observations ... but also I guess this Basler paper is a good citation for belief that experiments and observations cannot be fit together. 
 - Also, "Hänninen’s (1995) conclusions, based on a comparison of leaf
 unfolding dates in field and in warming experiments, that to predict
@@ -146,11 +146,58 @@ calibration of the model parameters."
 - "Combining statistical with process-based approaches, we demonstrated that chilling and forcing accumulate and act in parallel to regulate spring leaf unfolding in temperate trees."
 - Ask Victor to explain how this is non-identified? And/or make sure his example addresses this sort of paper?
 
+citedinZhao_etal_2020_acutetemperatures/ 
+
+** Ding_etal_2019 ** 
+
+This is a (Tansley) review of cold stress  in plants (all plants, but hints at a focus on crops) 
+- Very molecular focused, so I could not skim it well
+- No sign of 'dorman*' from a search
+- Conclusions, "we are still far away from understanding the molecular mechanism underlying cold signal perception and transduction in plants." *!* Point to make in our paper?
+
+** Zhang_etal_2019 **
+
+This is a review paper on crop improvement though 'temperature resilience' focusing on cold and hot. 
+- Very molecular focused, so I could not skim it well
+- "How plant cells perceive thermal signals remains largely elusive."
+- No sign of 'dorman*' from a search
+
+\hanninen
+
+** Ding_etal_2024 **
+
+Review paper with Bhalerao as senior on molecular advances of (apical) bud dormancy in trees
+- Good review (super molecular so I did skim some) of plasodesmodata stuff
+- Also good section on dormancy vs. vernalization 
+- "While eco- and endodormancy are commonly used terms, the underlying mo- lecular basis is not satisfactorily resolved." *!* Point to make in our paper!
+- Ending 'perspectives' section has some good stuff!
+
+** Jewaria_etal_2021 **
+
+A (Tansley) insights of 'endodormancy and the chilling requirement in subtropical trees'
+- I struggled to read this (even though it is short!) because it is so self-promotional
 
 
-* see START HERE below ...
-Review my notes on Chuine citedChuine2016 (below)
-READ: citedinZhao_etal_2020_acutetemperatures
+** Singh_etal_2016 **
+
+Review (Tansley) paper with Bhalerao as senior on photoperiod and temperature control in trees
+- "Recently, key components mediating photoperiodic control of growth cessation and bud set have been identified, and striking similarities have been observed in signaling pathways controlling growth cessation in trees and floral transition in Arabidopsis." 
+- Again says terms are problematic, see transition of pg 512 to 513
+- Goes through photoperiod for growth cessation (could check the citations, more than just Populus I think) 
+- Acknowledges that temperature also matters: "It should be noted, however, that temperature is used as a cue in the seasonal control of growth in some trees, for example apple and pear (Heide & Prestrud, 2005; Tanino et al., 2010)."
+- Very good paper for photoperiod! 
+- "findings that interrupting long nights by short pulses of light reverse SD induction of growth in poplar (Howe et al., 1996) clearly suggest the involvement of the circadian clock in the photoperiodic control of growth in trees."
+- Mentions plasmodesmata 
+- Good paper, I could/should read it again more closely. 
+
+%% START HERE! Read these two (start with 2023 one, which looks more useful). 
+
+** Zhang_etal_2021 **
+
+** Zhang_etal_2023 ** 
+
+This is Hanninen and Bhalerao together. 
+- "Urgent need' to integrate molecular and modeling studies  
 
 <><><><><><><><>
 Working through Cited in Chuine 2016 folder (Jan 2025)
@@ -158,7 +205,7 @@ Working through Cited in Chuine 2016 folder (Jan 2025)
 
 ** Atkinson et al. 2013 **
 
-PRINTED out to read
+PRINTED out to read (notes above) 
 
 ** Legave 1982 ** 
 
@@ -184,12 +231,12 @@ They try a gazillion experiments on Ribes then look for what fits best statistic
 
 But if you read the rest of the abstract I think it just gets too complex, no clear model emerges from the experiments alone... 
 
-"The impact of different combinations of temper- ature and chilling periods were described in terms of their overall ‘Effectiveness’ (E). Clear genotypic differences were found, with excessive chilling often inhibiting bud break. There was a significant interaction between observed chilling response and the period of low temperature exposure. A number of chilling models to explain observed interactions between chilling temperature and time of exposure on bud break were compared; the most effective involved an optimal response to increasing chill accumulation."
+"The impact of different combinations of temperature and chilling periods were described in terms of their overall ‘Effectiveness’ (E). Clear genotypic differences were found, with excessive chilling often inhibiting bud break. There was a significant interaction between observed chilling response and the period of low temperature exposure. A number of chilling models to explain observed interactions between chilling temperature and time of exposure on bud break were compared; the most effective involved an optimal response to increasing chill accumulation."
 
 Chuine et al. 2016 cites this paper (a lot) including: 
 
-"However, none of them were able to evaluate the efficiency of the models to predict accu- rately endodormancy break dates using observed endodormancy break dates so far (Jones et al., 2013)."
+"However, none of them were able to evaluate the efficiency of the models to predict accurately endodormancy break dates using observed endodormancy break dates so far (Jones et al., 2013)."
 
-Good stuff in this paper though, so will print out intro ....
+Good stuff in this paper though, so will print out intro ... (see notes above).
 
-"Evidence on the chilling requirement of different fruit spe- cies or cultivars can be obtained either through statistical analysis of correlations between flowering behaviour and sea- sonal temperatures in the field, or by using controlled envi- ronment studies involving exposure of plants or cuttings to controlled temperatures and using the resulting data to derive a chill model. Unfortunately, it has been shown that field data simply do not contain sufficient information for param- eterisation of the different processes involved in the necessary ecophysiological models (e.g. Hunter & Lechowicz 1992; Ha ̈nninen et al. 2007), therefore the present study emphasises the experimental approach."
+"Evidence on the chilling requirement of different fruit species or cultivars can be obtained either through statistical analysis of correlations between flowering behaviour and seasonal temperatures in the field, or by using controlled environment studies involving exposure of plants or cuttings to controlled temperatures and using the resulting data to derive a chill model. Unfortunately, it has been shown that field data simply do not contain sufficient information for param- eterisation of the different processes involved in the necessary ecophysiological models (e.g. Hunter & Lechowicz 1992; Ha ̈nninen et al. 2007), therefore the present study emphasises the experimental approach."
