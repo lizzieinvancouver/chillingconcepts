@@ -1,0 +1,34 @@
+Understanding Kovaleski Model
+Started 5 April 2025
+
+<><><><><><><><><><>
+Relevant papers (some, not all I am sure!):
+
+- The main on is PNAS by Kovaleski in 2022 ('Woody species do not differ in dormant progression: Differences in time to budbreak due to forcing and cold hardiness')
+- Kovaleski 2024, New Phyt ('The potential for an increasing threat of unseasonal temperature cycles to dormant plants') 
+
+
+<><><><><><><><><><>
+
+Some notes I have... From an email (Email27Jan2021_Kovaleski.pdf, which I also have in chilling notes.txt) I asked Al the following questions:
+
+(b) It would be great to meet and go over the concepts. The approach is super elegant and it makes sense to me that hardiness should be related to dormancy, but I have always been told they are not related. I found this recent quote:
+
+  From Chang et al. 2020, "Note that whereas both bud dormancy and cold hardening are induced by the combination of short photoperiod and low temperature, these are independent processes: Arora et al. (1992) induced cold hardening in the absence of bud dormancy in an evergreen peach genotype; and Rinne et al. (2001) observed increased freezing tolerance in birch following dormancy release."
+
+And attach the Rinne paper here. Does your model make sense of these results? Or do you think they might be wrong (I have not read them in great detail so I am open to that).
+
+(c) I'd much like to understand how you separate dormancy and hardiness.
+What I can't tell (and again -- I apologize for not spending more time on this and/or being less dense) is how you separate out the two. It seems to really know whether hardiness here is a constraint on budburst as opposed to an excellent correlate of dormancy would require decoupling the two. On quick skim of your paper I think perhaps you have done that but I cannot see how.
+
+
+... and he replied (and attached Rodriguez_etal_1994.pdf which I can share if people want to to check it out):
+
+(b) and (c) have very similar answers.
+
+In terms of the Arora (1992) paper, and I don't know how important this is, it is somewhat misrepresented in the Chang review as they did not induce cold hardening in the plants, they were just collecting wood from plants outdoor. What might be important is that they were looking at cold hardiness in the wood and not buds. The outdoor portion is important because the evergreen phenotype doesn't mean it continues growing indefinitely even during the winter, but that is also vegetative growth. The flowering still seems to require some type of "rest" before occurring, rather than a continuous flowering and growth. There's a lot of work on this in Florida for both peach and blueberry as this could work for year round production in south Florida. But it doesn't necessarily. Their evergreen blueberries retain ~70% of foliage if it stays warm enough and what happens is they bloom in Nov/Dec. I think in part what can be happening there is drought helping overcome dormancy too as Fall is dry in Florida. In northern Florida those cultivars behave in the same way as regular deciduous varieties, but they flower very early in January.
+
+Now, I had never worked with wood cold hardiness measurements until a work I did here at the Arboretum with Jake Grossman (the other Putnam fellow that overlapped with me). What we saw was that the cold hardiness in the wood is not limiting to return to growth, so buds will lose all their cold hardiness and break before the wood starts significantly losing it. I found one paper that has a point of cold hardiness measurement for floral buds of the evergreen peaches from WV and it is much less cold hardy than deciduous genotypes (and this will work in terms of the model – see below).
+
+So now the important part: it is not the level cold hardiness that is related to dormancy. And that's why there is no conflict at all with Arora and Rinne's results. It is the changes in rate of deacclimation. 
+Evergreen peach will be much less cold hardy so regardless of how fast it is losing cold hardiness, it will quickly return to growth. For Rinne (2001), it just means that the buds have a further way to go as they become more cold hardy, but they are also deacclimating faster as chill accumulates. In Rinne though, they are looking at % of buds that break within 22 days, so it is possible that the % of buds that break overall is 100% even prior to the 6 weeks of chilling, they could just be taking longer than 22 days (not everyone is willing to watch buds for 150 days).
