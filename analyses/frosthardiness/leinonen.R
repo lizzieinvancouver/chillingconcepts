@@ -1,5 +1,7 @@
 
 # modified from Phenofit code
+WINTER_SOLSTICE = -10; # 21 December
+SUMMER_SOLSTICE = 173; # 22 June
 
 leinonen_hardiness <- function(clim, pheno, params){
   
@@ -13,33 +15,33 @@ leinonen_hardiness <- function(clim, pheno, params){
   
   for(d in 1:nrow(clim)){
     
-    leafDevelopmentPhase = pheno[d, 'phase']
-    leafDevelopmentState = pheno[d, 'state']
+    leafDevelopmentPhase = pheno[pheno$day == d, 'phase']
+    leafDevelopmentState = pheno[pheno$day == d, 'state']
     
     if (leafDevelopmentPhase == 1) {
       CR = 1;
     } else if (leafDevelopmentPhase == 2) {
-      CR = Math.max(0, 1 - leafDevelopmentState);
+      CR = max(0, 1 - leafDevelopmentState);
     }
     
     if (clim[d, 'tmin'] > Te1) {
       dFHti = 0;
-    } else if (clim[d, 'tmin'] < Te2) {
-      dFHti = FHtfemax;
+    } else if (clim[pheno$day == d, 'tmin'] < params$Te2) {
+      dFHti = params$FHtfemax;
     } else {
-      dFHti = dFHt(clim[d, 'tmin'], Te1, Te2, FHtfemax);
+      dFHti = dFHt(clim[pheno$day == d, 'tmin'], params$Te1, params$Te2, params$FHtfemax);
     }
     
     if (CR == 0) {
       dFHpi = 0;
     } else if (day > WINTER_SOLSTICE && day < SUMMER_SOLSTICE) { # just discovered this: decreasing night length has no effect, in Leinonen 96
+      dFHpi = params$FHpfemax;
+    } else if (NL > params$NL2) {
       dFHpi = FHpfemax;
-    } else if (NL > NL2) {
-      dFHpi = FHpfemax;
-    } else if (NL < NL1) {
+    } else if (NL < params$NL1) {
       dFHpi = 0;
     } else {
-      dFHpi = dFHp(NL, NL1, NL2, FHpfemax);
+      dFHpi = dFHp(NL, params$NL1, params$NL2, params$FHpfemax);
     }
     
     FH = (4 / 5) * FH + (1 / 5) * (FHminfe + CR * (dFHti + dFHpi))
