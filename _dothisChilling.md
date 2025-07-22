@@ -1,7 +1,14 @@
 # To do notes on chilling concept ms
 Started 4 January 2025
 
-## What to do next (in January 2025)
+## What do next in Summer 2025!
+It's July, let's get the party started.
+
+1. I am working on the new draft based on the outline, which I finsihed after going through feedback on github
+1. Address `FIXME` in the tex file before sending to anyone
+
+## What I did next in early 2025 
+Written in January 2025, I think I finished in April (le sigh)
 
 1. Read papers I pulled together in Dec 2024 (see also issue 9; working on refs)
 2. Deal with non-identifiablity (issue 12)
