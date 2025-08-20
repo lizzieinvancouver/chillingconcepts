@@ -5,6 +5,7 @@ Started 4 January 2025
 It's July, let's get the party started.
 
 1. I am working on the new draft based on the outline, which I finsihed after going through feedback on github
+* Maybe need to define 'phenology' as a field or do something to contrast it with molecular folks. 
 1. Address `FIXME` in the tex file before sending to anyone
 
 ## What I did next in early 2025 
