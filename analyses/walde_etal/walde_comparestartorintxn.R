@@ -2,7 +2,7 @@
 ## Updated 17 September 2025: with plotting code from walde.R ##
 
 library(data.table)
-walde <- fread("~/Documents/git/projects/treegarden/cherries/data/walde_etal/Experimental_Data.txt")
+walde <- fread("~/Documents/git/projects/treegarden/chilling/analyses/walde_etal/Experimental_Data.txt")
 
 unique(walde[["Target Temperature"]])
 unique(walde[["Measured Temperature"]])
@@ -95,6 +95,6 @@ plotchangegdd <- waldesm %>%
   geom_function(fun = function(x) 518.548  /x -2.456)
 
 library(cowplot)
-pdf("~/Documents/git/projects/treegarden/cherries/data/walde_etal/figures/quickcompare.pdf", height=5, width=9)
+pdf("~/Documents/git/projects/treegarden/chilling/analyses/walde_etal/figures/quickcompare.pdf", height=5, width=9)
 plot_grid(plotchangegdd, plotchangestartdates)
 dev.off()

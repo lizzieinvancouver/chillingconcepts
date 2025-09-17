@@ -7,7 +7,7 @@
 
 
 library(data.table)
-walde <- fread("~/Documents/git/projects/treegarden/cherries/data/walde_etal/Experimental_Data.txt")
+walde <- fread("~/Documents/git/projects/treegarden/chilling/analyses/walde_etal/Experimental_Data.txt")
 
 unique(walde[["Target Temperature"]])
 unique(walde[["Measured Temperature"]])
