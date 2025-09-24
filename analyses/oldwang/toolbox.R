@@ -36,3 +36,9 @@ chillopt_wostart <- function(x, param, obs, d0){
   chill <- chillme(data = x, d0 = d0, dmax = as.Date("2021-12-31"), C = param[1], tmin = param[2], topt = (param[2]+param[3])/2, tmax = param[3])
   return(abs(as.numeric(obs-chill$breakday)))
 }
+
+chillopt_worange <- function(x, param, obs, range){
+  chill <- chillme(data = x, d0 = as.Date("1999-09-01") %m+% days(as.integer(param[1])), dmax = as.Date("2000-08-01"), C = param[2], tmin = range[1], topt = (range[1]+range[2])/2, tmax = range[2])
+  print(abs(as.numeric(obs-chill$breakday)))
+  return(abs(as.numeric(obs-chill$breakday)))
+}
