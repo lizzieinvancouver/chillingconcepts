@@ -3,18 +3,19 @@ Started 4 January 2025
 
 ## What do next in September 2025!
 
-* Doing currently ... START on \subsection*{Develop cross-disciplinary models with falsifiable predictions} and fix it (and review vvdm comments in it)
+* Doing currently ... START HERE, and maybe also try to:
+* Introduce different fields before: Progress through new experiments could come from experiments that bridge across molecular and phenological methods in other aspects of their design ... 
 
 1. Address `FIXME` in the tex file 
 3. Fix the ending (see issue 10)
-5. Re-do abstract
 6. Fix Figure 3 so we can use it. 
 7. Finalize addressing vvdm comments once he replies in issue 10
+
 
 Have done:
 * Remove Box 2
 * Reduce references to box 1 by moving critical text from Box 1 into main text (Justin flag what we need to move/add and I did that)
-
+* Re-do abstract
 
 ## What I did in Summer 2025
 It's July, let's get the party started.
