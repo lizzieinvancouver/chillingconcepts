@@ -1,11 +1,19 @@
 # To do notes on chilling concept ms
 Started 4 January 2025
 
-## What do next in October 2025!
+## What do next in November 2025!
+
 * Fix Figure 3 so we can use it. 
+* Work on next draft ... those steps are:
+
+1. Discuss with J Auerbach how to incorporate his comments for last section, especially part 2 (see issue 10 and notesAuerbachMisc.txt)
+2. While doing 1, also address Victor's concerns about falsifiability and non-identifiability 
+3. Ask Victor to implement his suggestion on cutting and simplying the box. 
+4. Go through Justin's comments (in docs/comments/) and any lingering comments by JA and VVdM
 
 
-Have done (September 2025):
+## What I did in September 2025
+_Did the below before sending to co-authors in October, then was totally useless from around 10 Oct to 21 Nov while traveling_ ... which is a good reminder that I often get nothing done when traveling
 * Remove Box 2
 * Reduce references to box 1 by moving critical text from Box 1 into main text (Justin flag what we need to move/add and I did that)
 * Re-do abstract
