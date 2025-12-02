@@ -5,14 +5,14 @@ Started 4 January 2025
 
 * Fix Figure 3 so we can use it. 
 * Work on next draft ... those steps are:
-1. Go to % START HERE ... working on this section! in tex and finish it (last part of last section)
-2. Ask Victor to implement his suggestion on cutting and simplying the box. 
-3. Go through Justin's comments (in docs/comments/) and any lingering comments by JA and VVdM
+1. Ask Victor to check out my edits to simplfy the box into a captoon. 
+
 
 
 Have done:
 1. Discussed with J Auerbach how to incorporate his comments for last section, especially part 2 (see issue 10 and notesAuerbachMisc.txt): basically he just said last section shorter (and some other stuff).
 2. Also addressing Victor's concerns about falsifiability and non-identifiability: Given the re-write falsifiability is basically gone from the main text! So maybe we can keep skip adding more on this? I did change some text in the beginning to address the point that diverging models sounds GOOD for falsifiability. 
+3. Gone through Justin's comments (in docs/comments/) and any lingering comments by JA and VVdM
 
 ## What I did in September 2025
 _Did the below before sending to co-authors in October, then was totally useless from around 10 Oct to 21 Nov while traveling_ ... which is a good reminder that I often get nothing done when traveling
