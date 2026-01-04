@@ -1,18 +1,20 @@
 # To do notes on chilling concept ms
 Started 4 January 2025
 
-## What do next in November 2025!
+## What do next in January 2026!
 
-* Fix Figure 3 so we can use it. 
-* Work on next draft ... those steps are:
-1. Ask Victor to check out my edits to simplfy the box into a captoon. 
+Submit to ...
+* NPH as Viewpoint: https://nph.onlinelibrary.wiley.com/hub/journal/14698137/about/author-guidelines#article-types
+* GCB as Opinion (need conclusion): https://onlinelibrary.wiley.com/page/journal/13652486/homepage/forauthors.html#3
 
 
-
-Have done:
+## What I did in November 2025
 1. Discussed with J Auerbach how to incorporate his comments for last section, especially part 2 (see issue 10 and notesAuerbachMisc.txt): basically he just said last section shorter (and some other stuff).
 2. Also addressing Victor's concerns about falsifiability and non-identifiability: Given the re-write falsifiability is basically gone from the main text! So maybe we can keep skip adding more on this? I did change some text in the beginning to address the point that diverging models sounds GOOD for falsifiability. 
 3. Gone through Justin's comments (in docs/comments/) and any lingering comments by JA and VVdM
+4. Made the box into a figure caption
+5. Fixed up Fig 3 some
+6. Addressed another set of comments from JA
 
 ## What I did in September 2025
 _Did the below before sending to co-authors in October, then was totally useless from around 10 Oct to 21 Nov while traveling_ ... which is a good reminder that I often get nothing done when traveling
