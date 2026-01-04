@@ -8,7 +8,7 @@ Submit to ...
 * GCB as Opinion (need conclusion): https://onlinelibrary.wiley.com/page/journal/13652486/homepage/forauthors.html#3
 
 
-## What I did in November 2025
+## What I did in November-December 2025
 1. Discussed with J Auerbach how to incorporate his comments for last section, especially part 2 (see issue 10 and notesAuerbachMisc.txt): basically he just said last section shorter (and some other stuff).
 2. Also addressing Victor's concerns about falsifiability and non-identifiability: Given the re-write falsifiability is basically gone from the main text! So maybe we can keep skip adding more on this? I did change some text in the beginning to address the point that diverging models sounds GOOD for falsifiability. 
 3. Gone through Justin's comments (in docs/comments/) and any lingering comments by JA and VVdM
