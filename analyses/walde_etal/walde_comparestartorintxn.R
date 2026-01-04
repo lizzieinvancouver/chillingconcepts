@@ -98,6 +98,7 @@ plotchangegdd <- waldesm %>%
        title = "Chilling treatment changes GDD required \n (not start date of forcing)") +
   annotate("text", x=19, y=85, label = "High chilling", color = colshere[1], cex=5) + 
   annotate("text", x=18, y=40, label = "Low chilling", color = colshere[2], cex=5) + 
+  # All th numbers come from the model fits above (ditto for figure below)
   geom_function(fun = function(x) 1176.355/x -2.456, size = 1, color = colshere[1]) +
   geom_function(fun = function(x) 518.548  /x -2.456, size = 1, color = colshere[2])
 
@@ -129,11 +130,11 @@ waldesm %>%
   aes(forcing, bbdoy) +
   geom_point(aes(color = chill, group = chill)) +
   theme_bw() +
-  theme(axis.line = element_line(linewidth = 0.5, colour = "darkgray")) 
-  + labs(x = "Temperature (°C)",
+  theme(axis.line = element_line(linewidth = 0.5, colour = "darkgray")) +
+  labs(x = "Temperature (°C)",
   y = "Mean Time until Budburst (days)",
-  title = "Chilling treatment changes GDD required \n and start date of forcing") + #facet_grid(chill ~ ., scales = "free") +
-  geom_function(fun = function(x) 677 / x + 30, size = 1.5, color = "#F8766D") 
-  + geom_function(fun = function(x) 1036 / x - 35, size = 1.5, color = "#00BFC4")
+  title = "Chilling treatment changes GDD required \n and start date of forcing") + 
+  geom_function(fun = function(x) 677 / x + 30, size = 1.5, color = "#F8766D") +
+  geom_function(fun = function(x) 1036 / x - 35, size = 1.5, color = "#00BFC4")
 
 
