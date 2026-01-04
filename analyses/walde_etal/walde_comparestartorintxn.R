@@ -11,6 +11,7 @@ unique(walde$Species)
 
 
 library(tidyverse)
+library(nlme)
 
 walde$forcing  <- walde[["Measured Temperature"]]
 walde$bbdoy  <- walde[["DOY of Budburst"]]
@@ -49,7 +50,6 @@ logLik(lm(bbdoy ~ I(1/forcing):chill, data = dat,
 # I'm getting the first is larger so that it's more likely chill changes the start date than GDD. 
 # Technically, the second logLik is wrong because the variance depends on GDD so you need to do something like
 
-library("nmle")
 logLik(
 gls(
   bbdoy ~ I(1/forcing):chill,
@@ -61,6 +61,9 @@ gls(
 )
 
 ## Plotting!
+colshere <- c("lightblue3", "lightpink3")
+options(ggplot2.discrete.colour = colshere)
+
 # Fitting separate intercepts 
 # Chilling changes start dates but not amount of GDD needed
 plotchangestartdates  <- waldesm %>%
@@ -71,11 +74,13 @@ plotchangestartdates  <- waldesm %>%
   geom_point() +
   theme_bw() +
   theme(axis.line = element_line(linewidth = 0.5, colour = "darkgray")) +
+  theme(legend.position = "none") +
   labs(x = "Temperature (°C)",
        y =  "Mean Time until Budburst (days)",
        title = "Chilling treatment changes start date of forcing \n (not GDD required)") +
-  #facet_grid(chill ~ ., scales = "free") +
-  geom_smooth(method = "lm", formula = y ~ offset(I(850/x))) 
+  annotate("text", x=19, y=85, label = "High chilling", color = colshere[1], cex=5) + 
+  annotate("text", x=18, y=40, label = "Low chilling", color = colshere[2], cex=5) + 
+  geom_smooth(method = "lm", formula = y ~ offset(I(850/x)), se=FALSE) 
 
 # Fitting separate intercepts 
 # Chilling changes the GDD required but not the start date (common theory)
@@ -87,14 +92,48 @@ plotchangegdd <- waldesm %>%
   geom_point(aes(color = chill, group = chill)) +
   theme_bw() +
   theme(axis.line = element_line(linewidth = 0.5, colour = "darkgray")) +
+  theme(legend.position = "none") +
   labs(x = "Temperature (°C)",
        y =  "Mean Time until Budburst (days)", 
        title = "Chilling treatment changes GDD required \n (not start date of forcing)") +
-  #facet_grid(chill ~ ., scales = "free") +
-  geom_function(fun = function(x) 1176.355/x -2.456) +
-  geom_function(fun = function(x) 518.548  /x -2.456)
+  annotate("text", x=19, y=85, label = "High chilling", color = colshere[1], cex=5) + 
+  annotate("text", x=18, y=40, label = "Low chilling", color = colshere[2], cex=5) + 
+  geom_function(fun = function(x) 1176.355/x -2.456, size = 1, color = colshere[1]) +
+  geom_function(fun = function(x) 518.548  /x -2.456, size = 1, color = colshere[2])
 
+  
 library(cowplot)
 pdf("~/Documents/git/projects/treegarden/chilling/analyses/walde_etal/figures/quickcompare.pdf", height=5, width=9)
 plot_grid(plotchangegdd, plotchangestartdates)
 dev.off()
+
+
+## From Auerbach: 14 October 2025 email
+# In the code, as long as the intercept is independent from forcing, you could fit a more complicated model 
+# that lets the slope and intercept vary by chill, and the fit looks good—suggesting higher chill 
+# reduces the GDD requirement by about a third on average (from 1036 to 677) 
+# but delays the start of forcing by about two months on average.
+## Lizzie adds: I thought of adding this to ms as third graph, but think it complicates the message too much
+
+gls(
+  bbdoy ~ I(1/forcing):chill + chill,
+  data = dat,
+  weights = varComb(varFixed(~I(forcing^(-3))),
+  varIdent(form = ~1|chill)), method = "ML"
+)
+
+waldesm %>%
+  select(forcing, bbdoy, chill, photo, species) %>%
+  filter(species == "Quercus robur") %>%
+  ggplot() +
+  aes(forcing, bbdoy) +
+  geom_point(aes(color = chill, group = chill)) +
+  theme_bw() +
+  theme(axis.line = element_line(linewidth = 0.5, colour = "darkgray")) 
+  + labs(x = "Temperature (°C)",
+  y = "Mean Time until Budburst (days)",
+  title = "Chilling treatment changes GDD required \n and start date of forcing") + #facet_grid(chill ~ ., scales = "free") +
+  geom_function(fun = function(x) 677 / x + 30, size = 1.5, color = "#F8766D") 
+  + geom_function(fun = function(x) 1036 / x - 35, size = 1.5, color = "#00BFC4")
+
+
