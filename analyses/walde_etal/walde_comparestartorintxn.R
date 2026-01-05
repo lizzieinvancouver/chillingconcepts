@@ -72,6 +72,7 @@ plotchangestartdates  <- waldesm %>%
   ggplot() +
   aes(forcing, bbdoy, weight = forcing^3, color = chill, group = chill) +
   geom_point() +
+  ylim(0,275) + 
   theme_bw() +
   theme(axis.line = element_line(linewidth = 0.5, colour = "darkgray")) +
   theme(legend.position = "none") +
@@ -90,6 +91,7 @@ plotchangegdd <- waldesm %>%
   ggplot() +
   aes(forcing, bbdoy) +
   geom_point(aes(color = chill, group = chill)) +
+  ylim(0,275) + 
   theme_bw() +
   theme(axis.line = element_line(linewidth = 0.5, colour = "darkgray")) +
   theme(legend.position = "none") +
