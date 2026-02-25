@@ -4,8 +4,9 @@ Started 4 January 2025
 ## What do next in February 2026!
 * Okay, I am finally back at it (eek, 23 Feb 2026) -- it seems I was shortening the ms when I got Rob's comments and then just stopped, but I am picking it back up ... 
 1. Step 1: Add in Rob Guy's commments
-* Need to open FOUR things: the tex ms file, PDF from Rob, the email from Justin AND the new text from Rob ... I am working on adding that in -- see START HERE .. and maybe also add in seed dormancy stuff as a way forward here too? 
-2. Go through comments from other co-authors (see comments/othersJan)
+* Need to open FOUR things: the tex ms SUPP file, PDF from Rob, the email from Justin AND the new text from Rob ... I am working on adding that in to supp now -- see START HERE .. (and maybe then get feedback from Justin on this though a git issue) and maybe also add in seed dormancy stuff as a way forward here too? 
+2. After this go back adding in the rest of Rob Guy's comments to main text
+3. Go through comments from other co-authors (see comments/othersJan)
 
 Submit to ...
 * NPH as Viewpoint: https://nph.onlinelibrary.wiley.com/hub/journal/14698137/about/author-guidelines#article-types
