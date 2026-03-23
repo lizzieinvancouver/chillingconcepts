@@ -1,12 +1,12 @@
 # To do notes on chilling concept ms
 Started 4 January 2025
 
-## What do next in February-March 2026!
+## What I did in February-March 2026
 * Okay, I am finally back at it (eek, 23 Feb 2026) -- it seems I was shortening the ms when I got Rob's comments and then just stopped, but I am picking it back up ... 
 1. DONE: Add in Rob Guy's commments
 2. DONE: Go through comments from other co-authors (see comments/othersJan)
-3. Go back through tex and make sure I had dealt with all 'TODO' comments I put in. This includes fixing Fig 1 (Victor) and Fig 3 (me). (Update 15 March, somehow when I recompiled today Fig 3 y axes look better! I feel crazy.)
-4. When sending to co-authors tell them the journal, word limit etc. and ask for minor edits. https://onlinelibrary.wiley.com/page/journal/13652486/homepage/forauthors.html#3
+3. DONE: Go back through tex and make sure I had dealt with all 'TODO' comments I put in. This includes fixing Fig 1 (Victor) and Fig 3 (me). (Update 15 March, somehow when I recompiled today Fig 3 y axes look better! I feel crazy.)
+4. Sent to co-authors on 22 March: told them the journal, word limit etc. and ask for minor edits. https://onlinelibrary.wiley.com/page/journal/13652486/homepage/forauthors.html#3
 
 Submit to ...
 * NPH as Viewpoint: https://nph.onlinelibrary.wiley.com/hub/journal/14698137/about/author-guidelines#article-types
