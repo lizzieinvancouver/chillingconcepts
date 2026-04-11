@@ -78,7 +78,7 @@ plotchangestartdates  <- waldesm %>%
   theme(legend.position = "none") +
   labs(x = "Temperature (°C)",
        y =  "Mean Time until Budburst (days)",
-       title = "Chilling treatment changes start date of forcing \n (not GDD required)") +
+       title = "B. Chilling treatment changes start date of forcing \n (not GDD required)") +
   annotate("text", x=19, y=85, label = "High chilling", color = colshere[1], cex=5) + 
   annotate("text", x=18, y=40, label = "Low chilling", color = colshere[2], cex=5) + 
   geom_smooth(method = "lm", formula = y ~ offset(I(850/x)), se=FALSE) 
@@ -97,7 +97,7 @@ plotchangegdd <- waldesm %>%
   theme(legend.position = "none") +
   labs(x = "Temperature (°C)",
        y =  "Mean Time until Budburst (days)", 
-       title = "Chilling treatment changes GDD required \n (not start date of forcing)") +
+       title = "A. Chilling treatment changes GDD required \n (not start date of forcing)") +
   annotate("text", x=19, y=85, label = "High chilling", color = colshere[1], cex=5) + 
   annotate("text", x=18, y=40, label = "Low chilling", color = colshere[2], cex=5) + 
   # All th numbers come from the model fits above (ditto for figure below)
