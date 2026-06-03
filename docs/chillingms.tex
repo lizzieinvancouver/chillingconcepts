@@ -7,6 +7,7 @@
 \usepackage{gensymb}
 \usepackage{parskip}
 \usepackage{xcolor}
+\usepackage{lineno}
 \usepackage[normalem]{ulem}
 
 \def\labelitemi{--}
@@ -17,20 +18,27 @@
 
 
 \title{The problem and promise of \\ modeling plant leafout under warmer winters} %  How overconfident models of tree leafout have stalled progress... Infinite models of leafout given warming winters...? % I don't love this title. JA suggested: 'Is chillin' the villan?'
-\author{E.M. Wolkovich$^1$, Justin Ngo$^1$, Victor Van der Meersch$^1$, Robert D. Guy$^1$ \& Jonathan Auerbach$^2$} % also possibly: Rob Guy -- I emailed him in mid-December 2025, have not heard back
-\date{\today}
+\author{E.M. Wolkovich$^{1*}$, Justin Ngo$^1$, Victor Van der Meersch$^1$, Robert D. Guy$^1$ \\ \& Jonathan Auerbach$^2$} % also possibly: Rob Guy -- I emailed him in mid-December 2025, have not heard back
 \maketitle
+
+\emph{Running title:} The problem with chilling
 
 $^1$ Forest \& Conservation Sciences, Faculty of Forestry \& Environmental Stewardship, University of British Columbia, 2424 Main Mall, Vancouver, BC V6T 1Z4, Canada\\
 $^2$ Department of Statistics, George Mason University, 4511 Patriot Circle, Fairfax, VA 22030, United States\\
+$^*$ e.wolkovich@ubc.ca
 
 
+\linenumbers
 \begin{abstract} % 197 words (keep under 200)
 How warmer winters affect plant leafout has major implications for carbon storage and ecosystem stability. Recent evidence that the advance of spring budburst has slowed with anthropogenic climate change has reignited a decades-old debate over winter chilling---the concept that woody temperate plants require sufficient winter cool temperatures to budburst each spring. The problem with chilling is that it does not correspond with an observable event.  This makes models of it rarely falsifiable and of limited use for advancing scientific understanding. In this paper, we review how current research built on the concept of chilling combined with limited data has led to the proliferation of untestable models that are consistent with a wide range of forecasts and provide little insight into actual plant biology. We argue that the concept of chilling should be reevaluated like past theoretical constructs of limited scientific value (such as `dormin' or  `anthesin') to help accelerate our understanding of plant development. This can be done by leveraging new insights on the biochemistry and physiology of dormancy to build better models that fit to both experimental and observational data, and by designing better experiments to more rigorously test theory. % ending needs help
 % We conclude that integrating new insights and approaches from molecular biology could better define the mechanism of chilling leading to models that make falsifiable predictions. Exposing the gaps in current mechanistic and statistical models at the same time new experiments yield richer, more informative data could greatly reduce the number of competing models of chilling that we have today---advancing our fundamental understanding of plant dormancy---and lead to much improved forecasts from crops to forest trees.  
 \end{abstract}
 % ... Such extreme variability of spring phenology predicted from current models suggests fundamental and major gaps in our understanding. Indeed, new research suggests major flaws in these models as currently applied, including multiple papers now suggesting estimates of `chilling' could easily be artifacts of poor models or correlated observational climate data \citep{decsens,gao2024}. 
 
+\emph{Keywords:} Chilling, spring phenology, dormancy, endodormancy, process-based modeling, forests
+% Data from Walde: https://datadryad.org/dataset/doi:10.5061/dryad.x95x69pnp
+
+\newpage
 % Main text: 3573 (7 March 2026)
 Plant leafout in the spring has shifted weeks earlier in many regions due to warming from anthropogenic climate change with consequences for a wide range of ecosystem services \citep{keenan2014net,ipcc2022}. Which underlying processes drive this trend, however, is debated, as recent research suggests winter warming may slow or stall further advances \citep{fu2015,piao2017}. Such reports focus on a two-step model of leafout where plants first require cool winter temperatures, often called `chilling,' before they can accumulate enough warm temperatures---`forcing'---to leafout each year (Figure \ref{fig:chillbasics}). This model of chilling is only one of many models proposed since the concept was first introduced \citep[][]{basler2016evaluating,hufkens2018integrated}. But, while forcing ends in an observable event such as leafout, the day plants achieve their chilling requirements coincides with no known measurable event. % making modeling especially challenging. 
 
@@ -188,6 +196,8 @@ These two simple examples illustrate that the parameter space contains multiple 
 \caption{Many experiments studying chilling alter `chilling' and `forcing' by varying the duration that cool temperatures are applied (`chilling') followed by different warm temperatures (`forcing'). Fitting simple linear models to these data (e.g., ANOVA models, with main effects of `chilling' and `forcing' treatments and their interaction---`chilling' $\times$ `forcing'---to find a sub-additive effect of the two) usually does not match the current biological understanding of chilling. Fitting models that match the proposed accumulation process is possible, however, as we show here using data from \citet{walde2022higher} for \emph{Quercus robur}, and considering two alternative biologies: (A) cool (`chilling') and warm treatments ($x$ axis) interact, such that longer cool temperatures mean more warm temperatures are required for leafout, versus (B) longer cool temperatures change the start date of the accumulation of warm (`forcing') temperatures (also known as endodormancy break). } %This approach could help better link statistical models with the current biological understanding of chilling, but are still limited in that they cannot discern when and at what temperatures plants accumulate chilling and forcing.
 \label{fig:multimodelexps}
 \end{figure}
+% Data from Walde: https://datadryad.org/dataset/doi:10.5061/dryad.x95x69pnp
+
 
 % Prior caption (removed 4 January 2026): Adding model diversity to experiments. Current experimental methods use limited data---often only on time to leafout (or flowering)---to estimate a hypothesized accumulation that triggers an unobserved event (currently often described as the release of endodormancy) which then leads to another accumulation that leads to leafout. Based on this model, many experiments alter `chilling' and `forcing' by varying the duration that cool temperatures are applied (`chilling') following by different warm temperatures (`forcing'). Diverging from this conceptual model, research often then fits simple linear models (though the accumulation model would be non-linear) with main effects of `chilling' and `forcing' treatments and their interaction (`chilling' $\times$ `forcing') to find a sub-additive effect of the two. This interaction is often interpreted to mean that longer cool temperatures (`chilling') lead to a greater requirement of `forcing,' but is rarely if ever compared to alternative models. Here, using data from \citet{walde2022higher} for \emph{Quercus robur}, we fit a non-linear model and compare the common model where cool and warm treatments interact with, such that longer cool temperatures mean more warm temperatures are required for leafout, with a model where longer cool temperatures change the start date of forcing (effectively, were the date of endodormancy break is shifted by cool temperatures, not the required warm accumulation). We can also add something about which fits better if I work on that .... This latter model is arguably more in line with the current biological model but rarely fit.
 
