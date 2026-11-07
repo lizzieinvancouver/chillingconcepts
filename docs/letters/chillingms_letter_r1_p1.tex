@@ -48,7 +48,7 @@ manuscript, perhaps within the Introduction. At present, Figure 1 appears to ref
 data, whereas Figure 2 appears to use observational data, but this distinction is not clearly established when
 the figures are first introduced. Clarifying this earlier would reduce potential confusion for the reader.}
 
-Good point, we reworked the introduction and now introduce both data types in the second paragraph, see edits \R{r1expobsdatS}-\R{r1expobsdatE}.
+Good point, we reworked the introduction and now introduce both data types in the second paragraph, see edits \lr{r1expobsdatS}-\lr{r1expobsdatE}.
 
 \emph{•       Line 29: The statement regarding "choice of parameterization" yielding different results requires further
 clarification. Such outcomes are not uncommon in modelling studies, so it would be helpful to explain more specifically what is being referred to here. For example, are the parameters inadequately constrained?}
@@ -63,14 +63,27 @@ This is a good point and we have now modified the sentence to give two examples 
 
 \emph{  •	Figure 2 presents estimation from a single winter. It would be useful to explain how the conclusion about indeterminacy would differ if the estimation was made using multiple conditions, as those illustrated in Figure 1. In addition, some discussion of how frequently models are estimated from a single condition versus multiple conditions would provide useful context.}
 
-\emph{•	Line 178: Arabidopsis thaliana is referred to as "biennial" but is normally an annual.}
+\emph{•	Line 178: Arabidopsis thaliana is referred to as ``biennial" but is normally an annual.}
+
+We have updated this to annual/biennial (\lr{r1annual}) as our understanding is that many wild populations in cooler regions are biennial. 
 
 \emph{•	Line 179, Wilczek et al 2009, Kim et al 2009: Would a more recent review of Arabidopsis vernalization be appropriate here? }
+
+Good point, we have updated to a more recent (2020) review by Kim, see \lr{r1morecentcite}.
 
 \emph{•	Figure 3: Figure 3 requires substantial revision. At present, it is not explained in sufficient detail and presents the florigen pathway in a potentially misleading manner. In particular:}
 \emph{ •	FLC is a flowering repressor,}
 \emph{ •	COOLAIR is cold-induced,}
 \emph{  •	FT is absent from the figure, despite being the canonical florigen gene.}
+
+FLC's expression curve has been corrected to show continued downregulation from the mid-endodormancy point through to vegetative growth rather than the post-budbreak return to positive regulation (which should happen at a much later point that is past the scope of the figure)
+
+COOLAIR is indeed cold-induced, though this gene and CONSTANS were omitted from the revised figure in favour of representing other genes that were more relevant to the manuscript body.
+
+To clarify and strengthen panel 3 in the original figure, DELLA-like and GIP-like1 were removed as they are not explicitly referenced in the main body. They are replaced by GA catabolism gene PmGA2OX from Prunus mume (Zhang et al., 2018) and ABA hydroxylase PpABA8'OH from Pyrus pyrifolia (Tuan et al., 2017)).
+
+The genes depicted in this figure are now given the prefix denoting the species from which they were characterized, and the research that first showed these patterns of expression have also been listed in the caption as recommended by both reviewers 1 and 2.
+
 
 \emph{  •	CONSTANS protein is regulated by photoperiod and is the only circadian clock-related gene included in panel 4.}
 
@@ -103,15 +116,20 @@ This is a good point and we have now modified the sentence to give two examples 
 
 \emph{My second concern is that some key information is missing, which makes parts of the viewpoint difficult to understand for a broader audience. For example, the diversity of chilling models, how they calculate chilling (chilling hours, chilling units, and chilling portions) and their different assumptions regarding chilling accumulation, including potential reversal or negation of previously accumulated chilling, is not sufficiently described. I believe that Figure 1 or Figure 2 could be substantially revised to provide a more informative overview of these different modelling approaches and their underlying assumptions. Figure 1 is not so informative in its current state. Following the same line of thought, the authors discuss at length the limitations of process-based models and emphasize the need to provide stronger mechanistic foundations for these models. However, they do not sufficiently discuss which biological processes could provide such mechanistic foundations and don’t mention that some models include mechanistic processes. The authors mention callose and hormones as key molecular basis of chilling, but the underlying process could be better described. Similarly, other important candidates, such as DAM genes, are not discussed in the main text. In addition, Figure 3 is not, in my opinion, used to its full potential: the genes presented in the figure are not discussed in the text, which makes it difficult to understand their relevance to the argument being developed, especially for non-experts. The figure legend could also be revised to make the figure more accessible and informative. I noticed that the supplementary information does provide a more detailed description of these molecular indicators. I believe that a middle ground could be found by bringing some of this information into the main text, while retaining the more detailed discussion in the Supplementary Information. Finally, while callose deposition can contribute to the temporary closure of plasmodesmata and thereby restrict symplastic communication, I would be interested in hearing the authors' perspective on which specific biological processes may be regulated by hormones and key transcription factors during dormancy progression and release. In particular, it would be valuable to discuss how these molecular regulators could be linked to the physiological processes that are ultimately represented in chilling and dormancy models. I understand these viewpoint should be forward thinking, and if the authors point is that “chilling” is obsolete, it is legitimate to make a clear proposal of what should replace it.}
 
+More chilling models, see \lr{r2modelsplsS}-\lr{r2modelsplsE}
+More molecular, see \lr{r2momolS}-\lr{r2momolE}
+
 \emph{I provide some minor comments below that I hope will help the authors address these two main concerns.}
 
 \emph{L38 : I think it useful in this sentence to clarify that spring phenology is important for crops and associated food safety/food production.}
 
-We have added this point here, see \R{r2foodsafety}.
+We have added this point here, see \lr{r2foodsafety}.
 
 \emph{L46 : I appreciate the perspective presented in this section. However I think it would be useful to provide a brief description of how these model work, including the concepts of chilling hours, chilling unit, chilling portion etc ,so that non-expert readers can better understand the different approaches and form their own opinion based on the information provided. Throughout the text, chilling units are mentioned, but no definition is provided.} 
 
-\emph{L54 : I don’t really understand what the authors mean with “a life history event”.}
+\emph{L54 : I don’t really understand what the authors mean with ``a life history event”.}
+
+Good point, we have changed to ``a developmental event---usually budburst" (\lr{r2whatislifehistoryevent}). 
 
 \emph{L58-61 : sentence is slightly too informal. I advise to rephrase. Also there is some literature on the shared mechanisms of seed dormancy and bud dormancy whereas from this sentence it may seem that shared mechanisms are just likely. Clarify, read and include useful literature , maybe : }
 
@@ -121,19 +139,32 @@ We have added this point here, see \R{r2foodsafety}.
 
 \emph{Sato \& Yamane (2024), Journal of Experimental Botany — ``Histone modifications affecting plant dormancy and dormancy release: common regulatory effects on hormone metabolism."}
 
+Done, we have modified the sentence (removing, in particular `start from scratch') and added several of these references (\lr{r2scratchS}-\lr{r2scratchE}). 
+
 \emph{L65-68 : I find this sentence a bit misleading as one may understand that only some parts of the cuttings are exposed to temperature treatment. Further, classic Weinberger approach are temperature  0-7,2 °C, not trying different temperature while here one can understand different temperatures are tested. Finally, Ettinger might not be the best reference here as it is a metanalysis and therefore not the best citation for the cuttings experiment. Maybe Vitasse et al., 2014 might be a better one ?}
+
+We have modified this sentence to now be two sentences, which we believe are now easier to understand. We include the Weinberger temperature range, and have added the Vitasse 2014 \emph{Tree Physiology} reference (\lr{r2annoymeS}-\lr{r2annoymeE}).
 
 \emph{L72-76: Sentence is long and hard to follow, remove “ and has led to the cross-disciplinary field of phenology.}
 
+Done. We have broken this sentence up into two sentence and removed the requested text (\lr{rmxdiscS}-\lr{rmxdiscE}).
+
 \emph{L78-83 : This section is not particularly insightful in its current form and i suggest to shorten, or remove. In addition, the term “molecular approach” is sometimes used by the authors, although the experimental work described in these sentences does not necessarily fall within the scope of a molecular approach. In particular, using Arabidopsis thaliana as an experimental system does not, in itself, imply that the work is molecular biology. I would therefore suggest avoiding such broad generalizations and using terminology that more accurately reflects the approaches described. More generally, genetics and molecular biology encompass distinct, although overlapping, fields, and I think it would be useful to distinguish between them more precisely throughout the text.}
 
+These are all good points. We have removed this paragraph, deleting some of the text and moving important points (e.g., introducing vernalization) to other paragraphs. See  \lr{r2killmol} and \lr{rmxdiscE}-\lr{r2rmmolintro}. 
+We have worked on our language throughout also to be more precise. %TODO ...
+
 \emph{L89-94 : I think here would be a good place to have clarifications on models, what chilling units, hours and portion mean, etc. }
+
+Agreed, we have added a new paragraph that reviews chill hours, chill units (Utah model) and chill portions (\lr{r2modelsplsS}-\lr{r2modelsplsE}). We also have added a new figure, as explained below. 
 
 \emph{140 : Could you please clarify this statement? In particular, it would be helpful to explain why the data are considered uninformative, and what aspects of the data collection or quality might be improved to make them more useful for the analysis. More broadly, to what extent can limitations in the data explain the models’ predictive performance ? Could some of the observed limitations instead be related to the model specification or methodology ?}
 
 \emph{147 : I really like this section.}
 
 \emph{L191-195 : More mechanistic models based on enzymatic response to temperature have been proposed and should be cited. I provide example below, and let the authors select and justify what they think is relevant. Also more information on figure 3 and molecular basis, associated physiological process would be useful here.}
+
+We agree and have expanded this section to incorporate some of the information from the supplement along with information from citations from this reviewer, see \lr{r2momolS}-\lr{r2momolE}.
 
 \emph{Luedeling et al. 2021  “Reducing the uncertainty on chilling requirements for endodormancy breaking of temperate fruits by data-based parameter estimation of the dynamic model: a test case in apricot.” It might be a good source because this paper explicitly explains that the Dynamic Model assumes that endodormancy is completed when a certain amount of a dormancy-breaking factor (DBF) has accumulated.}
 
@@ -144,9 +175,15 @@ Also :
 
 \emph{Charrier, G., Lacointe, A. \& Améglio, T. (2018). Dynamic Modeling of Carbon Metabolism During the Dormant Period Accurately Predicts the Changes in Frost Hardiness in Walnut Trees (Juglans regia L.).Frontiers in Plant Science 9:1746.}
 
+Good point, we have revised this section to include the new models, we now cite the Charrier and Sperliing and a recent one one by Caspersen that includes a (precursor) DBF (\lr{r2DBFS}-\lr{r2DBFE}). 
+
 \emph{220-223 : I don’t understand this sentence, and don’t understand the link with Figure 4. Unfortunately, I can’t help because I don’t understand their point . Revise and clarify this point}
 
+We updated this sentence to explain it more clearly (\lr{r2confS}-\lr{r2confE}).
+
 \emph{233 : avoid `molecular biologists', especially for work that do not include molecular biology.}
+
+Fixed (\lr{r2bad1}).
 
 \emph{Figures :}
 
@@ -159,6 +196,10 @@ Also :
 \emph{Figure 3 legend needs to be extended. }
 
 \emph{``Over 30 variants of this model exist, including those where the phases are sequential (darker shading) or occur in parallel (dark and light shading).'' Consider placing some models on this figure so one can understand this diversity of models. Also there is a disconnect between the main text and figure content. I think some of its contents needs to be referred to in the text, especially the potential molecular basis of chilling. I would clarify `gene expression' in the y-axis and provide title for molecular process : Callose deposition, GA , Circadian clock and flowering time. ``Molecular work suggests callose (second panel), alongside gibberellic acid (GA, third panel) and circadian clock-related genes (fourth panel) may all underlie these hypothesized phases.'' i think one needs to clarify if this is hypothetical expression trend or based on observed trend ( then studies should be cited).}
+
+The genes depicted in this figure are now given the prefix denoting the species from which they were characterized, and the research that first showed these patterns of expression have also been listed in the caption as recommended by both reviewers 1 and 2.
+
+As reviewer 2 suggests, thumbnails of the sequential, parallel, and dynamic models were placed onto panel 1 to better illustrate the model outcomes according to the dormancy phase they aim to model. A new panel has been inserted between the original panels 1 and 2 to provide a stronger comparison between the model outcomes and the reality of gene expression across the dormancy periods. These two edits were made with reviewer 1's comment on the clarity of panel 1. Additionally, the x-axis has been thoroughly updated to show where key biological events and windows occur to standardize this comparison. Likewise, the y-axis labels have been clarified as per reviewer 2's remark.
 
 %\bibliography{..//..//..//refs/decsens.bib}
 %\bibliographystyle{..//..//..//refs/bibstyles/amnat.bst}
