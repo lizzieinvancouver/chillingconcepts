@@ -20,3 +20,7 @@
 \notposting
 \docs\comments
 docs/comments
+
+
+*.fdb_latexmk
+*.fls
