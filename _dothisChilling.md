@@ -1,20 +1,18 @@
 # To do notes on chilling concept ms
 Started 4 January 2025
 
-## Working on revisions in November 2026
-1. Need updated figures and captions from VVdM
-3. Go through and update terms following: https://github.com/lizzieinvancouver/chillingconcepts/issues/23#issuecomment-6703966771
-4. Work on these edits: https://github.com/lizzieinvancouver/chillingconcepts/issues/22#issuecomment-6711984541
+## Working on revisions in November 2026 
 5. Finalize the letter
 6. Do a quick sweep of git issues and printed paper to make sure I did most everything. 
-7. Sweep through tex file for TODO
 8. Do my best to do whatever NPH wants for formatting ... (see email from them).
 9. Get this in by 23 November!
 
 ### Done in November 2026
 * Put in most of Rob Guy's emailed edits and the ones Justin sent via git issue 
 * Put in JA's edits
-
+* Got, added and edited updated figures and captions from VVdM
+* Finished on these edits: https://github.com/lizzieinvancouver/chillingconcepts/issues/22#issuecomment-6711984541
+* Updated terms following: https://github.com/lizzieinvancouver/chillingconcepts/issues/23#issuecomment-6703966771
 
 ## What I did in February-March 2026
 * Okay, I am finally back at it (eek, 23 Feb 2026) -- it seems I was shortening the ms when I got Rob's comments and then just stopped, but I am picking it back up ... 
