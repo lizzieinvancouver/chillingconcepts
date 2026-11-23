@@ -1,15 +1,13 @@
 # To do notes on chilling concept ms
 Started 4 January 2025
 
-## Working on revisions in November 2026 
-6. Do a quick sweep of git issues and printed paper to make sure I did most everything. 
-8. Do my best to do whatever NPH wants for formatting ... (see chilling/docs/NPHsubmission2ver or just give up).
-9. Get this in by 23 November!
-10. They want a DIFF file (see below, then delete chillingms_OLD.tex and related files)
-
+## Diff-ing (Nov 2026)
+ 
 Diff ...
 
 latexdiff chillingms_OLD.tex chillingms.tex > chillingms_diff.tex
+
+What is chillingms_OLD.tex you ask? It's the file in NPHsubmission1ver/ moved back one folder (and renamed) so I don't have to update the paths, this file can be DELETED!
 
 ### Done in November 2026
 * Put in most of Rob Guy's emailed edits and the ones Justin sent via git issue 
@@ -18,6 +16,12 @@ latexdiff chillingms_OLD.tex chillingms.tex > chillingms_diff.tex
 * Finished on these edits: https://github.com/lizzieinvancouver/chillingconcepts/issues/22#issuecomment-6711984541
 * Updated terms following: https://github.com/lizzieinvancouver/chillingconcepts/issues/23#issuecomment-6703966771
 * Finalized the letters
+* Added in tetrazolium 
+* Do a quick sweep of git issues (err, did as best I could muster) and printed paper to make sure I did most everything. 
+* Do my best to do whatever NPH wants for formatting ... (see chilling/docs/NPHsubmission2ver or just give up).
+* Get this in by 23 November!
+*10.* Gave them want a DIFF file (see ABOVE, then delete chillingms_OLD.tex and related files)
+
 
 ## What I did in February-March 2026
 * Okay, I am finally back at it (eek, 23 Feb 2026) -- it seems I was shortening the ms when I got Rob's comments and then just stopped, but I am picking it back up ... 
