@@ -1,6 +1,10 @@
 # To do notes on chilling concept ms
 Started 4 January 2025
 
+
+## BST (Nov 2026) ...
+* Totally forgot to fix the ref formatting by trying the bst files linked within here: https://www.overleaf.com/latex/templates/wiley-journal-template/nnjcnfyhzcqp (whoops!)
+
 ## Diff-ing (Nov 2026)
  
 Diff ...
